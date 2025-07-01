@@ -1,0 +1,2 @@
+readonly_token = "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"
+read_and_write_token = "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"

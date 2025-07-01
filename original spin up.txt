@@ -1,0 +1,17 @@
+cd "/Users/hitesh.modi/Desktop/Kinda Personal/LLM Finetuning Expert/"
+
+# 1. Create and activate the virtual environment
+python3 -m venv finetunedexpert
+source finetunedexpert/bin/activate
+
+# 2. Upgrade pip
+pip install --upgrade pip
+
+# 3. Install your project dependencies
+pip install -r requirements.txt
+
+# 6. Start Ollama server (in background)
+ollama serve &
+
+#9 install ipykernel and make a kernel in jupyter notebook as per this vm
+python -m ipykernel install --user --name=finetunedexpert --display-name "Python (finetunedexpert)"

@@ -1,0 +1,22 @@
+# LangChain for loading & processing documents
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.38
+langchain-text-splitters==0.0.1
+
+# Loaders
+pypdf==3.17.4                    # For PDF parsing
+youtube-transcript-api==0.6.2    # For fetching YouTube transcripts
+pytube==9.4.0
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+tqdm==4.66.4
+orjson==3.10.3                   # For fast JSONL output
+
+# Optional: Classification or clustering
+scikit-learn==1.5.0
+
+# Jupyter/IPython
+ipykernel==6.29.4

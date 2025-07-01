@@ -1,0 +1,8 @@
+# Step into your project directory
+cd "/Users/hitesh.modi/Desktop/Kinda Personal/LLM Finetuning Expert/"
+
+# Activate the virtual environment
+source finetunedexpert/bin/activate
+
+# Start Ollama (if not already running in the background)
+ollama serve &

@@ -1,0 +1,4 @@
+cd "/Users/hitesh.modi/Desktop/Kinda Personal/LLM Finetuning Expert/"
+rm -rf finetunedexpert
+
+jupyter kernelspec uninstall finetunedexpert
